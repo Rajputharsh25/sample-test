@@ -1,22 +1,22 @@
-asgiref==3.6.0              
-cycler==0.11.0              
-Django==4.2.3               
-joblib==1.2.0               
-kiwisolver==1.4.4           
-gunicorn==20.1.0            
-matplotlib==3.7.1           
-Pillow==9.4.0               
-pyparsing==3.0.9            
-python-dateutil==2.8.2      
-pytz==2023.3                
-scikit-learn==1.2.2         
-seaborn==0.12.2             
-six==1.16.0                 
-sklearn==0.0                
-sqlparse==0.4.4             
-threadpoolctl==3.1.0        
-typing-extensions==4.5.0   
-pandas==2.0.1               
-numpy==1.24.3               
-django-fontawesome-5==0.7.0
+asgiref==3.6.0                # Compatible with Django 4.2.x
+cycler==0.11.0                # Compatible with matplotlib 3.7.1+
+Django==4.2.3                 # Latest stable release of Django
+joblib==1.2.0                 # Compatible with scikit-learn 1.2.2
+kiwisolver==1.4.4             # Compatible with matplotlib 3.7.1+
+gunicorn==20.1.0              # Stable for deploying Django
+matplotlib==3.7.1             # Compatible with numpy & pandas
+Pillow==9.4.0                 # Compatible with Django and matplotlib
+pyparsing==3.0.9              # Compatible with matplotlib 3.7.1
+python-dateutil==2.8.2        # Compatible with pandas and matplotlib
+pytz==2023.3                  # Latest version compatible with Django & pandas
+scikit-learn==1.2.2           # Latest compatible version for ML models
+seaborn==0.12.2               # Compatible with pandas and matplotlib
+six==1.16.0                   # Stable, no conflict issues
+sklearn==0.0                  # Meta-package, compatible with scikit-learn 1.2.2
+sqlparse==0.4.4               # Latest compatible version with Django 4.2.x
+threadpoolctl==3.1.0          # Compatible with scikit-learn
+typing-extensions==4.5.0      # Compatible with Django and other packages
+pandas==2.0.1                 # Compatible with numpy 1.24.3
+numpy==1.24.3                 # Compatible with scikit-learn, pandas, seaborn
+django-fontawesome-5==1.0.18  # Latest available version
 whitenoise
