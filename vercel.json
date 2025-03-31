@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "heart-disease-prediction-django-web-app/djangoheart/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "heart-disease-prediction-django-web-app/django heart/wsgi.py"
+      }
+    ]
+  }
